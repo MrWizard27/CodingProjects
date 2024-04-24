@@ -31,5 +31,17 @@ it should be the one called %40me?location
 
 ![image](https://github.com/MrWizard27/CodingProjects/assets/130387713/d5f8206a-f885-4b32-81c8-d8a287e3366a)
 
-copy that request url and paste the part that isn't in the code, make sure the code still has the {channelid} and {messageid} parts or it won't react to the most recent message
+copy that request url and paste the part that isn't in the code, make sure the code still has the {channelid} and {messageid} parts or it won't react to the most recent message, so basically everything after /reactions/
+it should look something like this with the only part different after reactions
+https://discord.com/api/v9/channels/{channelid}/messages/{messageid}/reactions/check%4B320790211071085690/%40me?location=Message&type=0
+
+Now it should be all setup, you can run it with ``python PancakeScriptMK1.py`` It'll count down from 3 and then start automatically playing all the games
+
+if you want to use the trivia part you'll need to get the trivia db filled in, check out the process from there
+
+## Shoutout to Amrios and Codium, Amrios has a really good trivia bot which is where I learned how the trivia for pancake bot worked and was able to make my own version. Codium has a really good tutorial on how to use python requests to get discord messages and is what i used to start this project
+
+https://www.youtube.com/watch?v=xh28F6f-Cds
+
+https://github.com/amrios/tdb-pancakes
 
