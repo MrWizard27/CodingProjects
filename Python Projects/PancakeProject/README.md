@@ -23,4 +23,13 @@ Now start typing in the chat but don't send it, you should get a packet called t
 
 ![image](https://github.com/MrWizard27/CodingProjects/assets/130387713/5276cbec-5ce6-4994-b826-18c41218e5d8)
 
-you want to copy whats next to authorization id and paste it into the authorization variable
+you want to copy whats next to authorization id and paste it where it says to put your authorization variable
+
+#### Reaction Request URL
+To get this you need to sell your fishing rod, then buy another one, when you react to the message to buy it, record the url for that 
+it should be the one called %40me?location
+
+![image](https://github.com/MrWizard27/CodingProjects/assets/130387713/d5f8206a-f885-4b32-81c8-d8a287e3366a)
+
+copy that request url and paste the part that isn't in the code, make sure the code still has the {channelid} and {messageid} parts or it won't react to the most recent message
+
