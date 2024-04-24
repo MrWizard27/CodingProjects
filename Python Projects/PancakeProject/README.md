@@ -45,3 +45,25 @@ https://www.youtube.com/watch?v=xh28F6f-Cds
 
 https://github.com/amrios/tdb-pancakes
 
+# Making the trivia Database
+
+This is a hard part if you don't know SQL, plus my db filler has a lot of example code i used for debugging so it will be hard to navigate.
+make sure to do all the steps you did to set up the pancake script to the trivia database, it has a lot of the same methods
+
+#### First step, creating the database
+
+comment out the add_questions() at the bottom (put # in front of it)
+then uncomment out the
+# c.execute("""DROP TABLE trivia""")
+# c.execute("""CREATE TABLE trivia  (
+#             id Integer PRIMARY KEY,
+#             question TEXT,
+#             answer TEXT
+#             )""")
+at the top
+run the script, it will create you trivia table
+make sure to comment that part out again or your database will be cleared after everyrun
+
+now uncomment the add_questions() and run the script, it will fill your db with a bunch of answers to trivia questions. the pancake script will also add the answers to unknown questions as well
+
+if you have any questions feel free to message me
