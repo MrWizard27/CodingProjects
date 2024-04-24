@@ -107,7 +107,7 @@ def sell_fish():
 def add_questions():
     # Count cannot be greater than 50
     count = 50
-    difficulty = "easy"
+    difficulty = "hard"
     API = "https://opentdb.com/api.php?amount={cnt}&difficulty={dflty}".format(cnt=count, dflty=difficulty)
 
     while(True):
